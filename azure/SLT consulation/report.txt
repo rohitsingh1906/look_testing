@@ -1,0 +1,38 @@
+At SLT Consulting, we focus on transforming learning and development (L&D) organizations into data-driven teams that leverage new technologies to enhance personal and organizational growth. We aim to showcase the added value of L&D through technology and data.
+
+Key Contributions and Responsibilities:
+
+Data Architecture and Design:
+Segregated data into dimension (dim) and fact tables, creating an Entity-Relationship (ER) diagram to illustrate the data model.
+Developed a hybrid schema by incorporating dimension and fact tables based on project requirements.
+
+Data Preparation and Testing:
+Created dummy data during the development phase to test the product thoroughly before onboarding actual clients.
+
+Data Integration and ETL Processes:
+Managed data integration using Azure Data Factory (ADF) pipelines.
+Uploaded source CSV files to Azure Blob Storage and designed ADF pipelines to transfer data to SQL Server.
+
+Reporting and Visualization:
+Collaborated with the Power BI team to generate reports based on the transformed and loaded data in SQL Server, ensuring data accuracy and relevance for reporting needs.
+
+Automation and Monitoring:
+Implemented event-based triggers in ADF to automate pipeline executions upon file uploads.
+Used lookup activities within pipelines to capture and manage pipeline details, utilizing a flag (0 or 1) to control pipeline execution (based on SQL query where isActive = 1).
+
+Pipeline Management:
+Designed and managed three key pipelines:
+Master Pipeline: Coordinated the overall ETL process.
+Source File Extract Data Load: Handled the extraction and initial loading of data from source files.
+Destination Table Load: Managed the final loading of transformed data into destination tables.
+
+Project Impact:
+Successfully transformed the data architecture to support L&D initiatives, improving the ability to analyze and report on key metrics.
+Enhanced data reliability and performance through the use of dimension and fact tables.
+Streamlined data workflows and automation, leading to more efficient data processing and reduced manual intervention.
+Provided valuable insights through Power BI reports, aiding in informed decision-making and demonstrating the added value of L&D initiatives.
+
+Personal Role:
+As a Data Engineer, I played a crucial role in designing the data architecture, developing ETL pipelines, and ensuring the seamless integration of data across various platforms.
+I collaborated closely with cross-functional teams, including data analysts and the Power BI team, to deliver comprehensive data solutions that meet business needs.
+My efforts in automating and monitoring data processes ensured high data quality and consistency, contributing to the overall success of the project.
